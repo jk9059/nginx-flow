@@ -3,6 +3,7 @@ import ConfigSidebar from '@/components/sidebar/ConfigSidebar';
 import ConfigCanvas from '@/components/canvas/ConfigCanvas';
 import PropertyPanel from '@/components/panels/PropertyPanel';
 import ConfigPreview from '@/components/preview/ConfigPreview';
+import VisitorStats from '@/components/VisitorStats';
 import { Github } from 'lucide-react';
 
 const Index = () => {
@@ -37,6 +38,9 @@ const Index = () => {
         
         {/* Bottom Preview */}
         <ConfigPreview />
+        
+        {/* Visitor Stats */}
+        <VisitorStats />
       </div>
     </ConfigProvider>
   );

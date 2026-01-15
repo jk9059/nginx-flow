@@ -189,6 +189,10 @@ const translations: Record<Language, Record<string, string>> = {
     'common.disabled': '禁用',
     'common.on': '开',
     'common.off': '关',
+    
+    // 访问统计
+    'stats.visitors': '访客数',
+    'stats.views': '总访问量',
   },
   en: {
     // Sidebar
@@ -370,6 +374,10 @@ const translations: Record<Language, Record<string, string>> = {
     'common.disabled': 'Disabled',
     'common.on': 'On',
     'common.off': 'Off',
+    
+    // Visitor Stats
+    'stats.visitors': 'Visitors',
+    'stats.views': 'Total Views',
   },
 };
 
